@@ -11,23 +11,23 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-primary: #e63946; /* Rose red */
-  --bs-primary-rgb: 230, 57, 70;
+  --bs-primary: #f4978e; /* Soft rose */
+  --bs-primary-rgb: 244, 151, 142;
 
-  --bs-secondary: #a4161a; /* Deep red */
-  --bs-secondary-rgb: 164, 22, 26;
+  --bs-secondary: #f8c1c1; /* Light blush */
+  --bs-secondary-rgb: 248, 193, 193;
 
   --bs-light: #ffffff; /* White */
   --bs-light-rgb: 255, 255, 255;
 
-  --bs-dark: #5c1a1b; /* Wine/Burgundy */
-  --bs-dark-rgb: 92, 26, 27;
+  --bs-dark: #8b5d5d; /* Muted mauve */
+  --bs-dark-rgb: 139, 93, 93;
 
-  --bs-body-bg: #ffffff;
-  --bs-body-color: #5c1a1b;
+  --bs-body-bg: #fffafa; /* Very light pink background */
+  --bs-body-color: #5c3d3d; /* Warm soft brown for text */
 
-  --bs-link-color: #e63946;
-  --bs-link-hover-color: #a4161a;
+  --bs-link-color: #f4978e; /* Rose link */
+  --bs-link-hover-color: #dd6b6b;
 
   --bs-border-color: #f8c1c1;
 

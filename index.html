@@ -334,7 +334,14 @@
         </div>
         <p class="text-center">
           Download my full resume here:
-          <a href="files/Rose_Fitzgerald_Resume.pdf" download>Download PDF</a>
+          <a
+            href="files/Rose_Fitzgerald_Resume.pdf"
+            download
+            class="btn btn-primary btn-lg mt-3"
+            role="button"
+          >
+            Download Resume
+          </a>
         </p>
       </div>
     </section>
@@ -381,12 +388,13 @@
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-        <form method="post" action="#contact">
+        <form method="post" action="your-server-endpoint-or-service-url">
           <div class="form-group">
             <label for="email">Your Email Address</label>
             <input
               type="email"
               id="email"
+              name="email"
               class="form-control"
               placeholder="Email address"
               required
@@ -396,6 +404,7 @@
             <label for="message">Your Message</label>
             <textarea
               id="message"
+              name="message"
               class="form-control"
               rows="4"
               placeholder="Message"

@@ -1,221 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rose Fitzgerald Portfolio</title>
+    <meta charset="utf-8" />
     <meta
-      name="description"
-      content="Explore Rose Fitzgerald's portfolio of marketing and analytics projects, including work with Spotify Trends and DSM Airport."
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta
-      name="keywords"
-      content="Marketing, Analytics, Portfolio, Spotify, DSM Airport, Rose Fitzgerald"
-    />
+    <meta name="description" content="Web Portfolio for Rose Fitzgerald" />
     <meta name="author" content="Rose Fitzgerald" />
-    <!-- Open Graph -->
-    <meta property="og:title" content="Rose Fitzgerald Portfolio" />
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@rosefitzgeraldd" />
     <meta
-      property="og:description"
-      content="Showcasing marketing and analytics projects by Rose Fitzgerald."
+      name="twitter:title"
+      content="Rose Fitzgerald, Marketing and Business Analytics Graduate from University of Iowa"
     />
-    <meta property="og:image" content="Business_Professional_Pic.jpg" />
-    <meta property="og:type" content="website" />
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Rose Fitzgerald Portfolio" />
     <meta
       name="twitter:description"
-      content="Explore Rose Fitzgerald's portfolio of marketing and analytics projects, featuring work with Spotify, DSM Airport, and more."
+      content="A brief description of your portfolio"
     />
-    <meta name="twitter:image" content="Business_Professional_Pic.jpg" />
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        color: #333;
-      }
-      header,
-      nav,
-      main,
-      footer {
-        max-width: 1000px;
-        margin: auto;
-        padding: 1rem;
-      }
-      nav {
-        background-color: #23395d;
-        padding: 0.5rem;
-        border-radius: 0.25rem;
-      }
-      nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-      }
-      nav a {
-        color: #e6e6e6;
-        text-decoration: none;
-      }
-      section {
-        background: white;
-        margin: 1rem 0;
-        padding: 1rem;
-        border-radius: 8px;
-      }
-      footer {
-        text-align: center;
-        font-size: 0.9rem;
-        padding: 1rem;
-      }
+    <meta
+      name="twitter:image"
+      content="https://rosefitzgerald.my/RF_script.webp"
+    />
 
-      /* Cookie banner */
-      #cookieConsent {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: #23395d;
-        color: white;
-        padding: 1rem;
-        text-align: center;
-        display: none;
-        z-index: 1000;
-      }
-      #cookieConsent button {
-        background-color: #f4b400;
-        border: none;
-        padding: 0.5rem 1rem;
-        margin-left: 1rem;
-        font-weight: bold;
-        cursor: pointer;
-      }
-    </style>
+    <!-- Open Graph meta tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rose Fitzgerald" />
+    <meta
+      property="og:description"
+      content="Rose Fitzgerald, Marketing and Business Analytics Graduate from University of Iowa"
+    />
+    <meta
+      property="og:image"
+      content="https://rosefitzgerald.my/RF_script.webp"
+    />
+    <meta property="og:url" content="https://rosefitzgerald.my" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./android-chrome-512x512.png"
+    />
+
+    <title>Rose Fitzgerald</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="cookie-popup.css" />
   </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Rose Fitzgerald</a>
+        <button
+          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <img
+          class="masthead-avatar mb-5 border border-light rounded"
+          src="Business_Professional_Pic.jpg"
+          alt="Rose Fitzgerald"
+        />
 
-  <body>
-    <header>
-      <h1>Rose Fitzgerald</h1>
-      <p>Marketing and Business Analytics Portfolio</p>
+        <h1 class="masthead-heading text-uppercase mb-0">Rose Fitzgerald</h1>
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <p class="masthead-subheading font-weight-light mb-0">
+          2025 Tippie Graduate - Marketing & Business Analytics
+        </p>
+      </div>
     </header>
 
-    <nav role="navigation" aria-label="Main Navigation">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <img
-          src="Business_Professional_Pic.jpg"
-          alt="Rose Fitzgerald professional headshot"
-          loading="lazy"
-          width="200"
-        />
-        <p>
-          Hello! I'm Rose, a data-driven marketer passionate about consumer
-          insights and storytelling through analytics. I recently completed
-          projects exploring music trends, airport performance, and local
-          business growth strategies.
-        </p>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-
-        <article>
-          <h3>Spotify Trends Analysis</h3>
-          <img
-            src="Spotify_Trends.jpg"
-            alt="Spotify music trends dashboard from 2000 to 2019"
-            loading="lazy"
-            width="400"
-          />
-          <p>
-            This project explored changes in popular music traits over two
-            decades using Spotify data and APIs.
-          </p>
-        </article>
-
-        <article>
-          <h3>Des Moines Airport Performance</h3>
-          <img
-            src="DSM_Airport.jpg"
-            alt="Des Moines Airport analytics visualization"
-            loading="lazy"
-            width="400"
-          />
-          <p>
-            Analyzed passenger no-show rates and appointment trends to improve
-            airport service efficiency.
-          </p>
-        </article>
-
-        <article>
-          <h3>Field Day Brewing Co. Marketing Plan</h3>
-          <img
-            src="Field_Day.png"
-            alt="Marketing strategy presentation slide for Field Day Brewing Co."
-            loading="lazy"
-            width="400"
-          />
-          <p>
-            Built a full digital strategy including SEO, email, and social for a
-            local brewery brand in Iowa.
-          </p>
-        </article>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <p>
-          Email:
-          <a href="mailto:rose.fitzgerald@email.com"
-            >rose.fitzgerald@email.com</a
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+      <div class="container">
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Projects
+        </h2>
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- Hotel Reservation Project 1 -->
+          <div
+            style="
+              display: inline-block;
+              width: 300px;
+              margin: 20px;
+              text-align: center;
+            "
           >
-        </p>
-        <p>
-          LinkedIn:
+            <div style="border: 2px solid #23395d">
+              <img
+                src="Hotel_Reservations.png"
+                alt="Hotel Reservation Cancellations"
+                style="width: 100%; height: auto"
+              />
+              <div style="background-color: #23395d; padding: 10px">
+                <a
+                  href="https://www.canva.com/design/DAGYW1hXu98/6n2mX2fJ4v4M1vAca5G16g/view?utm_content=DAGYW1hXu98&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2f26b740c8"
+                  style="
+                    color: #e6e6e6;
+                    font-size: 20px;
+                    text-decoration: underline;
+                  "
+                  >View More</a
+                >
+              </div>
+            </div>
+            <p style="font-weight: bold; font-style: italic; margin-top: 15px">
+              Data Mining Project
+            </p>
+            <p style="max-width: 300px; margin: auto">
+              My team and I ran predictive models to anticipate potential
+              cancellations for hotel reservations in order to improve planning,
+              enhance operational efficiency, and optimize revenue.
+            </p>
+          </div>
+          <!-- Spotify Trends 2 -->
+          <div
+            style="
+              display: inline-block;
+              width: 300px;
+              margin: 20px;
+              text-align: center;
+            "
+          >
+            <div style="border: 2px solid #23395d">
+              <img
+                src="Spotify_Trends.jpg"
+                alt="Spotify Trends Project"
+                style="width: 100%; height: auto"
+              />
+              <div style="background-color: #23395d; padding: 10px">
+                <a
+                  href="https://github.com/rcfitzgerald/data-wrangling-project"
+                  style="
+                    color: #e6e6e6;
+                    font-size: 20px;
+                    text-decoration: underline;
+                  "
+                  >View More</a
+                >
+              </div>
+            </div>
+            <p style="font-weight: bold; font-style: italic; margin-top: 15px">
+              Spotify Trends - GitHub
+            </p>
+            <p style="max-width: 300px; margin: auto">
+              I analyzed music trends over time by scraping Spotify data. I
+              explored how song characteristics have evolved from 2000 to 2019
+              and compared them with recent music trends.
+            </p>
+          </div>
+          <!-- Field Day Brewing Co. 3 -->
+          <div
+            style="
+              display: inline-block;
+              width: 300px;
+              margin: 20px;
+              text-align: center;
+            "
+          >
+            <div style="border: 2px solid #23395d">
+              <img
+                src="Field_Day.png"
+                alt="Field Day Brewing Co."
+                style="width: 100%; height: auto"
+              />
+              <div style="background-color: #23395d; padding: 10px">
+                <a
+                  href="https://www.canva.com/design/DAF1fnBOpUs/_LdjEmAEdcIiDI6XZRxXvQ/view?utm_content=DAF1fnBOpUs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d80279f3e"
+                  style="
+                    color: #e6e6e6;
+                    font-size: 20px;
+                    text-decoration: underline;
+                  "
+                  >View More</a
+                >
+              </div>
+            </div>
+            <p style="font-weight: bold; font-style: italic; margin-top: 15px">
+              Field Day Brewing Co.
+            </p>
+            <p style="max-width: 300px; margin: auto">
+              We helped a local brewing company create more brand awareness,
+              driving more foot traffic to their restaurant.
+            </p>
+          </div>
+          <!-- DSM International Airport 4 -->
+          <div
+            style="
+              display: inline-block;
+              width: 300px;
+              margin: 20px;
+              text-align: center;
+            "
+          >
+            <div style="border: 2px solid #23395d">
+              <img
+                src="DSM.png"
+                alt="DSM International Airport"
+                style="width: 100%; height: auto"
+              />
+              <div style="background-color: #23395d; padding: 10px">
+                <a
+                  href="https://iowa.sharepoint.com/:p:/r/sites/DSMAirport05-1/Shared%20Documents/General/Final%20Deliverables/Presentation/DSM%20Group%201%20Final%20Presentation.pptx?d=wc13942324e1244e2a47838ce54a0ad13&csf=1&web=1&e=jBDPm5"
+                  style="
+                    color: #e6e6e6;
+                    font-size: 20px;
+                    text-decoration: underline;
+                  "
+                  >View More</a
+                >
+              </div>
+            </div>
+            <p style="font-weight: bold; font-style: italic; margin-top: 15px">
+              DSM International Airport
+            </p>
+            <p style="max-width: 300px; margin: auto">
+              Developed meaningful insights that helped optimize operations for
+              parking at the Des Moines International Airport.
+            </p>
+          </div>
+        </div>
+        <!-- end of the row -->
+      </div>
+      <!-- end of the container -->
+    </section>
+    <!-- end of the portfolio section -->
+
+    <!-- Resume Section-->
+    <section class="page-section" id="resume">
+      <div class="container">
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Resume
+        </h2>
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <p class="text-center">
+          Download my full resume here:
           <a
-            href="https://www.linkedin.com/in/rosefitzgerald"
-            target="_blank"
-            rel="noopener"
-            >linkedin.com/in/rosefitzgerald</a
+            href="Rose_Fitzgerald_Resume(5_7_2025).pdf"
+            download
+            class="btn btn-primary btn-lg mt-3"
+            role="button"
+          >
+            Download Resume
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section-->
+    <section class="page-section bg-light" id="about">
+      <div class="container">
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          About Me
+        </h2>
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <p class="text-center">
+          Driven and detail-oriented marketing and business analytics graduate
+          with experience in data analysis, digital strategy, and customer
+          insights across diverse industries including insurance, education, and
+          nonprofit sectors. Skilled in transforming complex data into
+          actionable recommendations, with a strong foundation in tools like
+          Excel, SQL, and Python. Passionate about using analytics to support
+          strategic decision-making, brand development, and market growth. Adept
+          at balancing creativity with data-driven thinking, and committed to
+          continuous learning and delivering meaningful impact. Currently
+          seeking entry-level opportunities in marketing or data analytics in
+          dynamic, growth-oriented environments.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Contact
+        </h2>
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <p class="text-center">You can reach me at:</p>
+        <p class="text-center">
+          <a href="mailto:rc.fitz16@gmail.com" class="btn btn-primary btn-lg"
+            >Email Me</a
           >
         </p>
-      </section>
-    </main>
+        <p class="text-center">
+          <a href="tel:+15158674258" class="btn btn-primary btn-lg">Call Me</a>
+        </p>
+      </div>
+    </section>
 
-    <footer>
-      <p>&copy; 2025 Rose Fitzgerald</p>
+    <!-- Footer-->
+    <footer class="footer text-center">
+      <div class="container">
+        <p class="text-muted small mb-0">&copy; 2025 Rose Fitzgerald</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a
+              href="https://www.linkedin.com/in/rose-fitzgerald-895058252/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/rcfitzgerald" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
-    <!-- Cookie Consent Banner -->
-    <div id="cookieConsent">
-      This site uses cookies to improve your experience. By using this website,
-      you agree to our use of cookies.
-      <button onclick="acceptCookies()">Got it!</button>
-    </div>
-
-    <script>
-      function acceptCookies() {
-        localStorage.setItem("cookiesAccepted", "true");
-        document.getElementById("cookieConsent").style.display = "none";
-      }
-
-      window.onload = function () {
-        if (!localStorage.getItem("cookiesAccepted")) {
-          document.getElementById("cookieConsent").style.display = "block";
-        }
-      };
-    </script>
+    <script src="cookie-popup.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
